@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThaYangs Online Graphic Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arizonia&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/5baa56887a.js" crossorigin="anonymous"></script>
+<link rel="icon" href="images/123.jpg" type="image/x-icon">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/123.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>ThaYangs <span>Graphic Studio</span></h1>
+                <p>| Graphic Designer | Video Editor | UX Designer | Coder |</p>
+                <div class="social-icons1">
+                    <a href="https://m.facebook.com/thayang59/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/tha.yangs_/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/tha-yangs-166b2323b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@thayang1278"><i class="fa-brands fa-square-youtube"></i></a>
+                    
+                </div>
+                <h6>I am waiting to create the best Design For Your Dreams. Contact me for any kind of design and the creative design group will be Bering <strong>your dreams into reality.</strong></h6>
+            </div>
+        </div>
+   </div>
+  
+   
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/propic.JPG">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About <span>Me</span></h1>
+                <p>I’m video editor, graphic designer and more. I have 5 years 
+                    professional experience in Editor and graphic design etc. <br>
+                    I graduated with a B.A In Bangalore, South Indian. I had 
+                    been work run the gamut from commercial, branded short 
+                    documentaries, music video, live events, tv shows. And also 
+                    I had been Created lost Books Design, package design  etc. <br><br>
+                    
+                    <strong>Graphic Design </strong> with 5 Years Experience For Book Cover, Poster,
+                     Flyer, Package Cover Design and More By Using Adobe Photoshop 
+                     and Indesign.
+                    
+                    <strong>Video Editing</strong>  With 4 Year Experience For Wedding, Music Video, 
+                     Products Promo By Using <br> Adobe Premiere Pro And After Effect. 
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    </div>
+
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Photoshop/Indesign</span><br>Graphic Designing</li>
+                            <li><span>Premiere Pro/After Effect</span><br>Video Editing/Intro Animation</li>
+                            <li><span>Adobe XD</span><br>UI/UX Designing</li>
+                            <li><span>HTM/CSS/</span><br>Web Designing</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>5 Years+ Experience With</span><br>Graphic Designing</li>
+                            <li><span>3 Years+ Years Experience With</span><br>Video Editing/Intro Animation</li>
+                            <li><span>1 Year Experience With</span><br>UI/UX Designing</li>
+                            <li><span>1 Year Experience With</span><br>Web Designing</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-pen-to-square"></i>
+                <h2>Graphic Design</h2>
+                <p>Graphic Design with 5 Years Experience For Book Cover, 
+                    Flyer, Package Design and More By Using Adobe Photoshop 
+                    and Indesign.</p>
+            </div>
+
+            <div>
+                <i class="fa-sharp fa-solid fa-film"></i>
+                <h2>Vidoe Editing</h2>
+                <p>Video Editing With 4 Year Experience For Wedding, Music Video, 
+                    Products Promo By Using Adobe Premiere Pro And After Effect.</p>
+            </div>
+
+            <div>
+                <i class="fa-sharp fa-solid fa-copy"></i>
+                <h2>UI/UX Design</h2>
+                <p>UX/UI Design With 1 Years Experience For Mobile Apps 
+                    And Website By Using Adobe XD.</p>
+            </div>
+
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Coding With 1 Year Experience For web redesign and
+                     Building Website By Using HTML, CSS And JavaScript.</p>
+            </div>
+        </div>
+    </div>
+   </div>
+
+
+
+<!--------------------------Portfolio------------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/photo1.jpg">
+                <div class="layer">
+                    <h3>Graphic Design</h3>
+                    <p>Book Cover, Poster, Flyer, Package Cover Design and More By Using Adobe Photoshop and Indesign.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/photo2.jpg">
+                <div class="layer">
+                    <h3>Video Editing</h3>
+                    <p> Wedding, Music Video, Products Promo and More By Using Adobe Premiere Pro And After Effect.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/photo3.jpg">
+                <div class="layer">
+                    <h3>UI/UX Design</h3>
+                    <p>Products, Cafe Shop, Restaurent Mobile Apps And Any Website By Using Adobe XD.</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/photo4.jpg">
+                <div class="layer">
+                    <h3>Web Design</h3>
+                    <p>Prosonal Portfolio Website, Wedding Website, Office Website By Using HTML, CSS And JavaScript .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-------------------------------contact---------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>thayang033@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+1 9294077569</p>
+                <div class="social-icons">
+                    <a href="https://m.facebook.com/thayang59/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/tha.yangs_/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/tha-yangs-166b2323b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@thayang1278"><i class="fa-brands fa-square-youtube"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required> 
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit">Submit</button>
+                    <span id="msg"></span>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxiQ4NZkW4x-cOpkRRzYN35XCKmmdwXjgQrPccEziICey8mLAifk4L3XxdeEqkCXpa3/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+               
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
